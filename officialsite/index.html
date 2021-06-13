@@ -1,48 +1,264 @@
 <html style="padding:0px;margin:0px">
 <style>
+    html{
+        scroll-behavior: smooth;
+    }
     body {
+
         margin:0%;
         padding:0%
     }
+    ul{
+        display: inline;
+        list-style-type: none;
+        margin: 0; 
+        padding: 0; 
+        text-align: center;  
+        align-self: center; 
+        align-content: center; 
+        padding-top: 5%; 
+        padding-bottom: 5%;  
+       
+    }
+    .navigation {
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:15px;
+        font-size: 20;
+        color: "white";       
+    }
+
+    .a:visited{
+        color:"white"
+    }
+    .p:active{
+        color:"white"
+    }
+
+    .content-container {
+        padding-left:1%;
+        padding-right:1%;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .column {
+        float: left;
+        width: 50%;
+    }
+   
+
+
 </style>
-    <div style=" background-color: aliceblue; padding:0px; align-items: center ; justify-content: center; vertical-align: center;">
-        <p style="height:15vh; text-align: center;  vertical-align: middle; align-self: center; align-content: center; background-color: aqua; ">Limelight - Lyrics & Rap To Go! </p>
+    <div id="home" style=" 
+        background-color: black; 
+        color:white;
+        padding:0px; 
+        align-items: center ; 
+        justify-content: center; 
+        vertical-align: center;">
+        <h1 style="
+            text-align: center;  
+            vertical-align: middle; 
+            align-self: center; 
+            align-content: center; 
+            background-color: black;  
+            padding-top: 10%; 
+            color:white;
+            padding-bottom: 8%;">ElectroFlow - Lyrics & Rap To Go! </h1>
     </div>
-    <div style="height:85vh; background:rgb(241, 195, 134) ;">
-        <div>
-            <p>Make friends through music</p>
+
+    <div style="
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0;  
+        flex-direction: row; 
+        display: flex; 
+        background-color: black;
+        color:white;">
+                <span class="navigation" style="width:16.66vw"><a href="#home" style="color:'white'">    <p style="color:'red'"">Home</p></a></span>
+                <span class="navigation"style="width:16.66vw"><a href="#tagline"> <p>Tagline</p></a></span>
+                <span class="navigation"style="width:16.66vw"><a href="#features"><p>Features </p></a></span>
+                <span class="navigation"style="width:16.66vw"><a href="#about">   <p>About</p></a></span>
+                <span class="navigation"style="width:16.66vw"><a href="#FAQ">     <p>Why?</p></a></span>
+                <span class="navigation"style="width:16.66vw"><a href="./contact.html"> <p>Contact</p></a></span>        
+    </div>
+
+
+    <div style="
+        height:85vh;   
+        position: absolute;
+        text-align: center; 
+        background-color: black;
+        color:blueviolet;">
+        <div id="tagline" 
+        class="content-container" 
+        style="
+            height:85vh;   
+            position: absolute;
+            text-align: center; 
+            background-color: black;
+            color:blueviolet;">
+            
+                Travis video
+        <!--
+            <video autoplay muted loop id="myVideo">
+                <source src="media/concertVideo5.mp4" type="video/MP4">
+              </video> 
+              <video autoplay muted loop id="myVideo">
+                <source src="media/concertVideo1.MP4" type="video/MP4">
+              </video>
+              <video autoplay muted loop id="myVideo">
+                <source src="media/concertVideo3.mp4" type="video/MP4">
+              </video>
+              <video autoplay muted loop id="myVideo">
+                <source src="media/concertVideo6.mp4" type="video/MP4">
+              </video> -->
+            <br/>
+            <h2>Bring Your Music To Life!</h2>
         </div>
-        <div style="flex-direction: row; width:100vw">
-            <div style="flex-direction: column; width:50%; background-color: aqua;">
-                <p>Features!</p>
-                <p>Browse user uploaded instrumentals, or use your own*</p>
-                <p>Record your own 45 second raps</p>
-                <p>Keep it private copy or share to the community</p>
-                <p>Save your own custom lyrics to the cloud</p>
-                <p>Enjoy psychedlic backdrops</p>
-                <p>Meet & Befriend other Limelighters with our messaging/follow system</p>
-                <p>Browse, Rate, & Comment on Other peoples work - be nice</p>
+       
+
+        <div id="features" class="content-container" 
+            style="
+                flex-direction: row; 
+                width:100vw;
+                background-color:black;
+                color:blueviolet;">
+            <div class="row" style="
+                background-color: black; 
+                color:white;">
+                <div class="column" 
+                    style="
+                        background-color:black; 
+                        color: blueviolet;">
+                    <div style="
+                        flex-direction: column;  
+                        background-color: black;  
+                        color:white; 
+                        display: flex;
+                        ">
+                        <p style="font-weight: 800;">Features!</p>
+
+                            <p>Collaberate with others! Browse user uplodaded instrumentals and record your own beats.. OR create your own*</p>
+                            <p>Record, release and reconveyance your own 45 second raps</p>
+                            <p>Keep it for yourself or build your following</p>
+                            <p>Save your own custom lyrics to the cloud</p>
+                            <p>Cat got your tongue? Try out our triple entendre or suggested lyrics feature.</p>
+                            <p>Get matched with producers, visual effect artists and videographers and more!</p>
+                            <p>Meet & Befriend other ElectroFlowers with our messaging/follow system</p>
+                            <p>Browse, Rate, & Comment on Other peoples work - be nice</p>
+                            <p>Give a virtual concert through live streaming</p>
+                        </div>
+                    </div>
+                    <div class="
+                        column" 
+                        style="
+                            background-color:black; 
+                            color:white;">
+                        
+                    <div style="flex-direction: row;  height:100%;  background-color: black; color:white; display: flex;">
+                        <p>This is filler text for the image next to it</p>
+                    </div>
+                         
+                </div>
             </div>
-            <div style="flex-direction: column; width:50%; height:100%; background-color: brown;">
-            </div>
+            
+
         </div>
-        <div>
-            <p style="font-weight:800">Why Limelight?</p>
+
+       <div id="features" class="content-container" 
+            style="
+                flex-direction: row; 
+                width:100vw;
+                background-color:black;
+                color:white;">
+            <div class="row">
+                <div class="column" 
+                style="
+                    background-color:black;
+                    color: white;">
+                    <div style="
+                        flex-direction: column;  
+                        background-color: black;  
+                        color:white;
+                        display: flex;">
+                            <video autoplay muted loop id="myVideo">
+                                <source src="media/concertVideo7.mp4" type="video/MP4">
+                            </video> 
+                        <br/>
+                    </div>
+                </div>
+                    <div class="column" style="
+                        background-color:black;
+                        color:white;">
+                        
+                    <div style="
+                        flex-direction: column;  
+                        height:100%; 
+                        background-color: black; 
+                        display: flex;
+                        color: white;">
+                        <p id="about" style="font-weight:800; background-color: black; color:white;">Why ElectroFlow?</p>
+                        <p>The hippies were right! Music brings us together, it's a surefire way to create, especially with other artist. I firmly believe that music relates human unlike any other medium, and I wanted to offer the framework for a community for my app users</p>
+                        <p>Almost 1 year ago, I started itching to make music. For a casual hobby, I found the buyin was relatively steep - a good microphone can range hundreds, and so can a DAW</p>
+                        <p>There is an integration requirement too - for the longest time my friends and I were carrying around either paper note-pads or random text-widgets on your phone</p>
+                        <p>Everyone who's tried to make it in the music industries knows how saturated it is- I built ElectroFlow to ease the Rap buy-in for amateur musicians and offer a voice for your voice</p>
+                    
+                    </div>
+                         
+                </div>
+            </div>
+            
+
+        </div>
+
+
+        <!-- <div class="content-container">
+            <p id="about" style="font-weight:800">Why ElectroFlow?</p>
             <p>Almost 1 year ago, I started itching to make music. For a casual hobby, I found the buyin was relatively steep - a good microphone can range hundreds, and so can a DAW</p>
             <p>There is an integration requirement too - for the longest time my friends and I were carrying around either paper note-pads or random text-widgets on your phone</p>
-            <p>I built Limelight to ease the Rap buy-in for amateur musicians</p>
+            <p>I built ElectroFlow to ease the Rap buy-in for amateur musicians</p>
             <p>I also believe that music relates human unlike any other medium, and I wanted to offer the framework for a community for my app users</p>
-        </div>
-        <div>
-            <p>Supported Platforms</p>
+        </div> -->
+        <div class="content-container" style=
+            "flex-direction: column;  
+            height:100%; 
+            background-color: black; 
+            display: flex;
+            color: white" >
+            <p >Supported Platforms</p>
             <p>Android is coming soon</p>
             <p>IOS coming slightly less soon</p>
         </div>
-        <div>
-            <p style="font-weight: 800;">FAQ</p>
+
+        <div class="content-container" id="FAQ"
+            style="
+                font-weight: 800;
+                flex-direction: column;  
+                height:100%; 
+                background-color: black; 
+                display: flex;
+                color: white;">
+            <p>FAQ</p>
             <p>Is it free?</p>
             <p>A - Mostly. Servers have overhead that scales commensurate to the size of the userbase. My goal is to make this as affordable as possible, while still offering quality features</p>
         </div>
+
+        <div class="content-container" 
+            style="
+                font-weight:800; 
+                background-color:black; 
+                height:20vh; 
+                color:'white'" id="Footer">
+            <p style="color:white" >Footer</p>
+            <p style="color:white"> ElectroFlow Inc </p>
+            <p style="color:white">&copy ElectroFlow Inc</p>
+        </div>
         
     </div>
+    
 </html>
